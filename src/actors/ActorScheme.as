@@ -29,7 +29,7 @@ package actors
 		[Inspectable(name="07   Is update", type="Boolean", defaultValue="false")]
 		public var isUpdate:Boolean = false;
 
-		[Inspectable(name="08   Layer", type="List", defaultValue="BACKDROP, BACKGROUND, MIDDLEGROUND, FOREGROUND, MENU, ERROR", listOffset=2)]
+		[Inspectable(name="08   Layer", type="List", defaultValue="BACKEND, BACKGROUND, MIDDLEGROUND, FOREGROUND, FRONTEND", listOffset=2)]
 		public var layerName:String = "MIDDLEGROUND";
 
 		[Inspectable(name="09   Cache", type="Boolean", defaultValue="true")]
@@ -43,7 +43,6 @@ package actors
 
 		[Inspectable(name="12   Use hand", type="Boolean", defaultValue="false")]
 		public var useHand:Boolean = false;
-
 
 		/**
 		 */
