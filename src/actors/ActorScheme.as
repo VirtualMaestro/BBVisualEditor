@@ -26,22 +26,16 @@ package actors
 		[Inspectable(name="06   Graphics rotation", type="Boolean", defaultValue="true")]
 		public var graphicsRotation:Boolean = true;
 
-		[Inspectable(name="07   Is update", type="Boolean", defaultValue="false")]
-		public var isUpdate:Boolean = false;
-
-		[Inspectable(name="08   Layer", type="List", defaultValue="BACKEND, BACKGROUND, MIDDLEGROUND, FOREGROUND, FRONTEND", listOffset=2)]
+		[Inspectable(name="07   Layer", type="List", defaultValue="BACKEND, BACKGROUND, MIDDLEGROUND, FOREGROUND, FRONTEND", listOffset=2)]
 		public var layerName:String = "MIDDLEGROUND";
 
-		[Inspectable(name="09   Cache", type="Boolean", defaultValue="true")]
+		[Inspectable(name="08   Cache", type="Boolean", defaultValue="true")]
 		public var cache:Boolean = true;
 
-		[Inspectable(name="10   Collision internal actors", type="Boolean", defaultValue="true")]
+		[Inspectable(name="09   Collision internal actors", type="Boolean", defaultValue="true")]
 		public var isCollisionInternalActors:Boolean = true;
 
-		[Inspectable(name="11   Is dynamic creation", type="Boolean", defaultValue="false")]
-		public var isDynamicCreation:Boolean = false;
-
-		[Inspectable(name="12   Use hand", type="Boolean", defaultValue="false")]
+		[Inspectable(name="10   Use hand", type="Boolean", defaultValue="false")]
 		public var useHand:Boolean = false;
 
 		/**
