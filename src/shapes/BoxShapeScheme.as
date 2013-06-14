@@ -10,7 +10,7 @@ package shapes
 		 */
 		public function BoxShapeScheme()
 		{
-			super();
+			super("shapes::BoxShapeScheme", "shapes::BaseShapeScheme");
 		}
 	}
 }

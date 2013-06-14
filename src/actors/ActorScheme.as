@@ -1,12 +1,10 @@
 package actors
 {
-	import flash.display.MovieClip;
-
 	/**
 	 *
 	 * @author VirtualMaestro
 	 */
-	public class ActorScheme extends MovieClip
+	public class ActorScheme extends BaseScheme
 	{
 		[Inspectable(name="01   Actor name", type="String", defaultValue="")]
 		public var actorName:String = "";
@@ -42,7 +40,7 @@ package actors
 		 */
 		public function ActorScheme()
 		{
-			super();
+			super("actors::ActorScheme", "BaseScheme");
 		}
 	}
 }

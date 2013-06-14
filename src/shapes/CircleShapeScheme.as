@@ -10,7 +10,7 @@ package shapes
 		 */
 		public function CircleShapeScheme()
 		{
-			super();
+			super("shapes::CircleShapeScheme", "shapes::BaseShapeScheme");
 		}
 	}
 }

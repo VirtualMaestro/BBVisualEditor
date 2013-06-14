@@ -1,11 +1,12 @@
 package levels
 {
-	import flash.display.MovieClip;
-
-	public class LevelScheme extends MovieClip
+	/**
+	 */
+	public class LevelScheme extends BaseScheme
 	{
 		public function LevelScheme()
 		{
+			super("levels::LevelScheme", "BaseScheme");
 		}
 	}
 }

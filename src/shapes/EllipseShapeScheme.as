@@ -10,7 +10,7 @@ package shapes
 		 */
 		public function EllipseShapeScheme()
 		{
-			super();
+			super("shapes::EllipseShapeScheme", "shapes::BaseShapeScheme");
 		}
 	}
 }

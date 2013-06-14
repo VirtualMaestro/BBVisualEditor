@@ -1,14 +1,10 @@
 package shapes
 {
-	import flash.display.MovieClip;
-	
-
-	
 	/**
 	 * 
 	 * @author VirtualMaestro
 	 */
-	public class BaseShapeScheme extends MovieClip
+	public class BaseShapeScheme extends BaseScheme
 	{
 		[Inspectable(name = "01   Shape name", type="String", defaultValue="")]
 		public var shapeName:String = "";
@@ -63,9 +59,9 @@ package shapes
 
 		/**
 		 */
-		public function BaseShapeScheme()
+		public function BaseShapeScheme(p_className:String, p_superClassName:String)
 		{
-			super();
+			super(p_className, p_superClassName);
 		}
 	}
 }

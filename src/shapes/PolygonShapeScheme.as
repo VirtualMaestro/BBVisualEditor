@@ -10,7 +10,7 @@ package shapes
 		 */
 		public function PolygonShapeScheme()
 		{
-			super();
+			super("shapes::PolygonShapeScheme", "shapes::BaseShapeScheme");
 		}
 	}
 }
