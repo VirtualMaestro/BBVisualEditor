@@ -6,7 +6,7 @@ package joints
 	 */
 	public class WeldJointScheme extends BaseJointScheme
 	{
-		[Inspectable(name = "14   Phase", type="Number", defaultValue="0")]
+		[Inspectable(name = "14   Phase (degrees)", type="Number", defaultValue="0")]
 		public var phase:Number = 0.0;
 
 		/**
