@@ -36,6 +36,12 @@ package actors
 		[Inspectable(name="10   Is bullet", type="Boolean", defaultValue="false")]
 		public var isBullet:Boolean = false;
 
+		[Inspectable(name = "11   Gravity", type="Array", defaultValue="")]
+		public var gravity:Array = null;
+
+		[Inspectable(name = "12   Air friction", type="Number", defaultValue="0.0")]
+		public var airFriction:Number = 0.0;
+
 		/**
 		 */
 		public function ActorScheme()
