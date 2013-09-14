@@ -10,9 +10,6 @@ package graphics
 		[Inspectable(name="02   Frame rate", type="Number", defaultValue=30)]
 		public var frameRate:Number = 30;
 
-		[Inspectable(name="03   Graphics rotation", type="Boolean", defaultValue="true")]
-		public var graphicsRotation:Boolean = true;
-
 		/**
 		 */
 		public function GraphicsScheme()
