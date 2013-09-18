@@ -33,6 +33,15 @@ package layers
 		[Inspectable(name="08   Depend Zoom", type="Number", defaultValue="0.0")]
 		public var dependZoom:Number = 0.0;
 
+		[Inspectable(name="09   Camera X", type="Number", defaultValue="0.0")]
+		public var cameraX:Number = 0.0;
+
+		[Inspectable(name="10   Camera Y", type="Number", defaultValue="0.0")]
+		public var cameraY:Number = 0.0;
+
+		[Inspectable(name="11   Camera mouse enable", type="Boolean", defaultValue="false")]
+		public var cameraMouseEnable:Boolean = false;
+
 		/**
 		 */
 		public function LayerScheme()
